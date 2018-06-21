@@ -1,8 +1,7 @@
 {
-  "name": "checkable",
+  "name": "sc-library",
   "version": "0.1.0",
-  "repository": "https://github.com/MyWishPlatform/checkable.git",
-  "author": "Nikolay Toporkov <kolya_t@mywish.io>",
+  "repository": "https://github.com/MyWishPlatform/sc-library.git",
   "license": "ISC",
   "scripts": {
     "compile": "truffle compile",
