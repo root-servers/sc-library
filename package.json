@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "repository": "https://github.com/MyWishPlatform/sc-library.git",
   "license": "ISC",
+  "bin": {
+    "combine-contracts": "scripts/combineContracts.js"
+  },
   "scripts": {
     "compile": "truffle compile",
     "lint": "eslint .",
