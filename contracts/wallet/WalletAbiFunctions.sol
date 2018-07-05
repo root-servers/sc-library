@@ -1,11 +1,10 @@
 pragma solidity ^0.4.23;
 
 import "./WalletAbi.sol";
-import "./WalletEvents.sol";
 import "../SoftDestruct.sol";
 
 
-contract WalletAbiFunctions is WalletAbi, WalletEvents, SoftDestruct {
+contract WalletAbiFunctions is WalletAbi, SoftDestruct {
     // Revokes a prior confirmation of the given operation
     function revoke(bytes32) external onlyTarget {}
 
