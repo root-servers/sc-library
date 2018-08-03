@@ -4,6 +4,10 @@ import "./WalletAbi.sol";
 import "../SoftDestruct.sol";
 
 
+/**
+ * @title WalletAbiFunctions.
+ * @dev Implements all functions extends m_* and execute with default values.
+ */
 contract WalletAbiFunctions is WalletAbi, SoftDestruct {
   // Revokes a prior confirmation of the given operation
   function revoke(bytes32) external onlyTarget {}

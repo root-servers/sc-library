@@ -1,6 +1,6 @@
 {
   "name": "sc-library",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "repository": "https://github.com/MyWishPlatform/sc-library.git",
   "license": "ISC",
   "bin": {
